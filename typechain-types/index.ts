@@ -24,7 +24,7 @@ export type { TransparentUpgradeableProxy } from "./@openzeppelin/contracts/prox
 export { TransparentUpgradeableProxy__factory } from "./factories/@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy__factory";
 export type { Box } from "./contracts/Box";
 export { Box__factory } from "./factories/contracts/Box__factory";
-export type { BoxV2 } from "./contracts/BoxV2.sol/BoxV2";
-export { BoxV2__factory } from "./factories/contracts/BoxV2.sol/BoxV2__factory";
+export type { BoxV2 } from "./contracts/BoxV2";
+export { BoxV2__factory } from "./factories/contracts/BoxV2__factory";
 export type { BoxProxyAdmin } from "./contracts/proxy/BoxProxyAdmin";
 export { BoxProxyAdmin__factory } from "./factories/contracts/proxy/BoxProxyAdmin__factory";

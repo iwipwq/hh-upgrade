@@ -22,3 +22,6 @@ const boxV2Deploy:DeployFunction = async function(hre:HardhatRuntimeEnvironment)
         await verify(boxV2.address, []);
     }
 }
+
+export default boxV2Deploy;
+boxV2Deploy.tags = ["all","boxv2"]
